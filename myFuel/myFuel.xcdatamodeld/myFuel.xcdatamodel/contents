@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MFL_CARS" syncable="YES">
+        <attribute name="car_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="car_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MFL_FUEL_RECORD" syncable="YES">
+        <attribute name="car_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date_section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fuel" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fuel_rate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="price_of_fuel" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="record_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="trip" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MFL_CARS" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="MFL_FUEL_RECORD" positionX="-54" positionY="-9" width="128" height="163"/>
+    </elements>
+</model>

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D144398519F5197000E5FCA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D144398419F5197000E5FCA9 /* main.m */; };
+		D144398819F5197000E5FCA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D144398719F5197000E5FCA9 /* AppDelegate.m */; };
+		D144398B19F5197000E5FCA9 /* myFuel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D144398919F5197000E5FCA9 /* myFuel.xcdatamodeld */; };
+		D144398E19F5197000E5FCA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D144398D19F5197000E5FCA9 /* ViewController.m */; };
+		D144399119F5197000E5FCA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144398F19F5197000E5FCA9 /* Main.storyboard */; };
+		D144399319F5197000E5FCA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D144399219F5197000E5FCA9 /* Images.xcassets */; };
+		D144399619F5197000E5FCA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D144399419F5197000E5FCA9 /* LaunchScreen.xib */; };
+		D14439A219F5197000E5FCA9 /* myFuelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439A119F5197000E5FCA9 /* myFuelTests.m */; };
+		D14439AD19F5198500E5FCA9 /* MFLMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439AC19F5198500E5FCA9 /* MFLMainView.m */; };
+		D14439B419F519E800E5FCA9 /* ARUTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439AF19F519E800E5FCA9 /* ARUTUtil.m */; };
+		D14439B519F519E800E5FCA9 /* UIActionSheet+NSCookBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439B119F519E800E5FCA9 /* UIActionSheet+NSCookBook.m */; };
+		D14439B619F519E800E5FCA9 /* UIAlertView+NSCookBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439B319F519E800E5FCA9 /* UIAlertView+NSCookBook.m */; };
+		D14439BC19F51CA800E5FCA9 /* 00-cell_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D14439BA19F51CA800E5FCA9 /* 00-cell_arrow@2x.png */; };
+		D14439BF19F51EEE00E5FCA9 /* MFLHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439BE19F51EEE00E5FCA9 /* MFLHistoryView.m */; };
+		D14439C219F5227F00E5FCA9 /* MFLInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D14439C119F5227F00E5FCA9 /* MFLInputView.m */; };
+		D14439C819F522D500E5FCA9 /* 00-btn_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D14439C419F522D500E5FCA9 /* 00-btn_arrow@2x.png */; };
+		D14439CA19F522D500E5FCA9 /* 00-btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D14439C619F522D500E5FCA9 /* 00-btn_close@2x.png */; };
+		D1AB20D319F5FBDB009BF4F8 /* mfl_home_add_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1AB20D119F5FBDB009BF4F8 /* mfl_home_add_normal@2x.png */; };
+		D1AB20D419F5FBDB009BF4F8 /* mfl_home_history_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1AB20D219F5FBDB009BF4F8 /* mfl_home_history_normal@2x.png */; };
+		D1AB20D719F624D3009BF4F8 /* MFLCDCars.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20D619F624D3009BF4F8 /* MFLCDCars.m */; };
+		D1AB20DA19F625A3009BF4F8 /* MFLCDFuelRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20D919F625A3009BF4F8 /* MFLCDFuelRecord.m */; };
+		D1AB20DD19F62C02009BF4F8 /* MFLCoreDataCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AB20DC19F62C02009BF4F8 /* MFLCoreDataCtrl.m */; };
+		D1CFCAFE19F74726007E0B11 /* MFLCarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFCAFD19F74726007E0B11 /* MFLCarsView.m */; };
+		D1CFCB0119F75894007E0B11 /* mfl_btn_edit_car_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CFCB0019F75894007E0B11 /* mfl_btn_edit_car_normal@2x.png */; };
+		D1CFCB0419F776F3007E0B11 /* MFLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFCB0319F776F3007E0B11 /* MFLBaseView.m */; };
+		D1CFCB0619F7A259007E0B11 /* mfl_btn_import_export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CFCB0519F7A259007E0B11 /* mfl_btn_import_export@2x.png */; };
+		D1CFCB0C19F7A9E8007E0B11 /* MFLImportView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CFCB0B19F7A9E8007E0B11 /* MFLImportView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D144399C19F5197000E5FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D144397719F5197000E5FCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D144397E19F5197000E5FCA9;
+			remoteInfo = myFuel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D144397F19F5197000E5FCA9 /* myFuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D144398319F5197000E5FCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D144398419F5197000E5FCA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D144398619F5197000E5FCA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D144398719F5197000E5FCA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D144398A19F5197000E5FCA9 /* myFuel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myFuel.xcdatamodel; sourceTree = "<group>"; };
+		D144398C19F5197000E5FCA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D144398D19F5197000E5FCA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D144399019F5197000E5FCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D144399219F5197000E5FCA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D144399519F5197000E5FCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D144399B19F5197000E5FCA9 /* myFuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFuelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14439A019F5197000E5FCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14439A119F5197000E5FCA9 /* myFuelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFuelTests.m; sourceTree = "<group>"; };
+		D14439AB19F5198500E5FCA9 /* MFLMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLMainView.h; sourceTree = "<group>"; };
+		D14439AC19F5198500E5FCA9 /* MFLMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLMainView.m; sourceTree = "<group>"; };
+		D14439AE19F519E800E5FCA9 /* ARUTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARUTUtil.h; sourceTree = "<group>"; };
+		D14439AF19F519E800E5FCA9 /* ARUTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARUTUtil.m; sourceTree = "<group>"; };
+		D14439B019F519E800E5FCA9 /* UIActionSheet+NSCookBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+NSCookBook.h"; sourceTree = "<group>"; };
+		D14439B119F519E800E5FCA9 /* UIActionSheet+NSCookBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+NSCookBook.m"; sourceTree = "<group>"; };
+		D14439B219F519E800E5FCA9 /* UIAlertView+NSCookBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+NSCookBook.h"; sourceTree = "<group>"; };
+		D14439B319F519E800E5FCA9 /* UIAlertView+NSCookBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+NSCookBook.m"; sourceTree = "<group>"; };
+		D14439B719F51A5900E5FCA9 /* DefineAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineAll.h; sourceTree = "<group>"; };
+		D14439BA19F51CA800E5FCA9 /* 00-cell_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-cell_arrow@2x.png"; sourceTree = "<group>"; };
+		D14439BD19F51EEE00E5FCA9 /* MFLHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLHistoryView.h; sourceTree = "<group>"; };
+		D14439BE19F51EEE00E5FCA9 /* MFLHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLHistoryView.m; sourceTree = "<group>"; };
+		D14439C019F5227F00E5FCA9 /* MFLInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLInputView.h; sourceTree = "<group>"; };
+		D14439C119F5227F00E5FCA9 /* MFLInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLInputView.m; sourceTree = "<group>"; };
+		D14439C419F522D500E5FCA9 /* 00-btn_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-btn_arrow@2x.png"; sourceTree = "<group>"; };
+		D14439C619F522D500E5FCA9 /* 00-btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00-btn_close@2x.png"; sourceTree = "<group>"; };
+		D1AB20D119F5FBDB009BF4F8 /* mfl_home_add_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mfl_home_add_normal@2x.png"; sourceTree = "<group>"; };
+		D1AB20D219F5FBDB009BF4F8 /* mfl_home_history_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mfl_home_history_normal@2x.png"; sourceTree = "<group>"; };
+		D1AB20D519F624D3009BF4F8 /* MFLCDCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLCDCars.h; sourceTree = "<group>"; };
+		D1AB20D619F624D3009BF4F8 /* MFLCDCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLCDCars.m; sourceTree = "<group>"; };
+		D1AB20D819F625A3009BF4F8 /* MFLCDFuelRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLCDFuelRecord.h; sourceTree = "<group>"; };
+		D1AB20D919F625A3009BF4F8 /* MFLCDFuelRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLCDFuelRecord.m; sourceTree = "<group>"; };
+		D1AB20DB19F62C02009BF4F8 /* MFLCoreDataCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLCoreDataCtrl.h; sourceTree = "<group>"; };
+		D1AB20DC19F62C02009BF4F8 /* MFLCoreDataCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLCoreDataCtrl.m; sourceTree = "<group>"; };
+		D1CFCAFC19F74726007E0B11 /* MFLCarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLCarsView.h; sourceTree = "<group>"; };
+		D1CFCAFD19F74726007E0B11 /* MFLCarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLCarsView.m; sourceTree = "<group>"; };
+		D1CFCB0019F75894007E0B11 /* mfl_btn_edit_car_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mfl_btn_edit_car_normal@2x.png"; sourceTree = "<group>"; };
+		D1CFCB0219F776F3007E0B11 /* MFLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLBaseView.h; sourceTree = "<group>"; };
+		D1CFCB0319F776F3007E0B11 /* MFLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLBaseView.m; sourceTree = "<group>"; };
+		D1CFCB0519F7A259007E0B11 /* mfl_btn_import_export@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mfl_btn_import_export@2x.png"; sourceTree = "<group>"; };
+		D1CFCB0A19F7A9E8007E0B11 /* MFLImportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFLImportView.h; sourceTree = "<group>"; };
+		D1CFCB0B19F7A9E8007E0B11 /* MFLImportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFLImportView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D144397C19F5197000E5FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D144399819F5197000E5FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D144397619F5197000E5FCA9 = {
+			isa = PBXGroup;
+			children = (
+				D144398119F5197000E5FCA9 /* myFuel */,
+				D144399E19F5197000E5FCA9 /* myFuelTests */,
+				D144398019F5197000E5FCA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D144398019F5197000E5FCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D144397F19F5197000E5FCA9 /* myFuel.app */,
+				D144399B19F5197000E5FCA9 /* myFuelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D144398119F5197000E5FCA9 /* myFuel */ = {
+			isa = PBXGroup;
+			children = (
+				D14439B819F51CA800E5FCA9 /* images */,
+				D14439B719F51A5900E5FCA9 /* DefineAll.h */,
+				D14439AE19F519E800E5FCA9 /* ARUTUtil.h */,
+				D14439AF19F519E800E5FCA9 /* ARUTUtil.m */,
+				D14439B019F519E800E5FCA9 /* UIActionSheet+NSCookBook.h */,
+				D14439B119F519E800E5FCA9 /* UIActionSheet+NSCookBook.m */,
+				D14439B219F519E800E5FCA9 /* UIAlertView+NSCookBook.h */,
+				D14439B319F519E800E5FCA9 /* UIAlertView+NSCookBook.m */,
+				D144398619F5197000E5FCA9 /* AppDelegate.h */,
+				D144398719F5197000E5FCA9 /* AppDelegate.m */,
+				D144398C19F5197000E5FCA9 /* ViewController.h */,
+				D144398D19F5197000E5FCA9 /* ViewController.m */,
+				D144398F19F5197000E5FCA9 /* Main.storyboard */,
+				D144399219F5197000E5FCA9 /* Images.xcassets */,
+				D144399419F5197000E5FCA9 /* LaunchScreen.xib */,
+				D144398919F5197000E5FCA9 /* myFuel.xcdatamodeld */,
+				D144398219F5197000E5FCA9 /* Supporting Files */,
+				D1CFCB0219F776F3007E0B11 /* MFLBaseView.h */,
+				D1CFCB0319F776F3007E0B11 /* MFLBaseView.m */,
+				D14439AB19F5198500E5FCA9 /* MFLMainView.h */,
+				D14439AC19F5198500E5FCA9 /* MFLMainView.m */,
+				D14439BD19F51EEE00E5FCA9 /* MFLHistoryView.h */,
+				D14439BE19F51EEE00E5FCA9 /* MFLHistoryView.m */,
+				D14439C019F5227F00E5FCA9 /* MFLInputView.h */,
+				D14439C119F5227F00E5FCA9 /* MFLInputView.m */,
+				D1AB20D519F624D3009BF4F8 /* MFLCDCars.h */,
+				D1AB20D619F624D3009BF4F8 /* MFLCDCars.m */,
+				D1AB20D819F625A3009BF4F8 /* MFLCDFuelRecord.h */,
+				D1AB20D919F625A3009BF4F8 /* MFLCDFuelRecord.m */,
+				D1AB20DB19F62C02009BF4F8 /* MFLCoreDataCtrl.h */,
+				D1AB20DC19F62C02009BF4F8 /* MFLCoreDataCtrl.m */,
+				D1CFCAFC19F74726007E0B11 /* MFLCarsView.h */,
+				D1CFCAFD19F74726007E0B11 /* MFLCarsView.m */,
+				D1CFCB0A19F7A9E8007E0B11 /* MFLImportView.h */,
+				D1CFCB0B19F7A9E8007E0B11 /* MFLImportView.m */,
+			);
+			path = myFuel;
+			sourceTree = "<group>";
+		};
+		D144398219F5197000E5FCA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D144398319F5197000E5FCA9 /* Info.plist */,
+				D144398419F5197000E5FCA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D144399E19F5197000E5FCA9 /* myFuelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D14439A119F5197000E5FCA9 /* myFuelTests.m */,
+				D144399F19F5197000E5FCA9 /* Supporting Files */,
+			);
+			path = myFuelTests;
+			sourceTree = "<group>";
+		};
+		D144399F19F5197000E5FCA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D14439A019F5197000E5FCA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14439B819F51CA800E5FCA9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D1CFCB0519F7A259007E0B11 /* mfl_btn_import_export@2x.png */,
+				D1CFCB0019F75894007E0B11 /* mfl_btn_edit_car_normal@2x.png */,
+				D1AB20D119F5FBDB009BF4F8 /* mfl_home_add_normal@2x.png */,
+				D1AB20D219F5FBDB009BF4F8 /* mfl_home_history_normal@2x.png */,
+				D14439C419F522D500E5FCA9 /* 00-btn_arrow@2x.png */,
+				D14439C619F522D500E5FCA9 /* 00-btn_close@2x.png */,
+				D14439BA19F51CA800E5FCA9 /* 00-cell_arrow@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D144397E19F5197000E5FCA9 /* myFuel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14439A519F5197000E5FCA9 /* Build configuration list for PBXNativeTarget "myFuel" */;
+			buildPhases = (
+				D144397B19F5197000E5FCA9 /* Sources */,
+				D144397C19F5197000E5FCA9 /* Frameworks */,
+				D144397D19F5197000E5FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFuel;
+			productName = myFuel;
+			productReference = D144397F19F5197000E5FCA9 /* myFuel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D144399A19F5197000E5FCA9 /* myFuelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14439A819F5197000E5FCA9 /* Build configuration list for PBXNativeTarget "myFuelTests" */;
+			buildPhases = (
+				D144399719F5197000E5FCA9 /* Sources */,
+				D144399819F5197000E5FCA9 /* Frameworks */,
+				D144399919F5197000E5FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D144399D19F5197000E5FCA9 /* PBXTargetDependency */,
+			);
+			name = myFuelTests;
+			productName = myFuelTests;
+			productReference = D144399B19F5197000E5FCA9 /* myFuelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D144397719F5197000E5FCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = miura;
+				TargetAttributes = {
+					D144397E19F5197000E5FCA9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = EZX6K92P7A;
+					};
+					D144399A19F5197000E5FCA9 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D144397E19F5197000E5FCA9;
+					};
+				};
+			};
+			buildConfigurationList = D144397A19F5197000E5FCA9 /* Build configuration list for PBXProject "myFuel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D144397619F5197000E5FCA9;
+			productRefGroup = D144398019F5197000E5FCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D144397E19F5197000E5FCA9 /* myFuel */,
+				D144399A19F5197000E5FCA9 /* myFuelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D144397D19F5197000E5FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14439C819F522D500E5FCA9 /* 00-btn_arrow@2x.png in Resources */,
+				D144399119F5197000E5FCA9 /* Main.storyboard in Resources */,
+				D14439CA19F522D500E5FCA9 /* 00-btn_close@2x.png in Resources */,
+				D1AB20D419F5FBDB009BF4F8 /* mfl_home_history_normal@2x.png in Resources */,
+				D1CFCB0619F7A259007E0B11 /* mfl_btn_import_export@2x.png in Resources */,
+				D1CFCB0119F75894007E0B11 /* mfl_btn_edit_car_normal@2x.png in Resources */,
+				D144399619F5197000E5FCA9 /* LaunchScreen.xib in Resources */,
+				D144399319F5197000E5FCA9 /* Images.xcassets in Resources */,
+				D14439BC19F51CA800E5FCA9 /* 00-cell_arrow@2x.png in Resources */,
+				D1AB20D319F5FBDB009BF4F8 /* mfl_home_add_normal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D144399919F5197000E5FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D144397B19F5197000E5FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D144398819F5197000E5FCA9 /* AppDelegate.m in Sources */,
+				D1AB20DA19F625A3009BF4F8 /* MFLCDFuelRecord.m in Sources */,
+				D144398519F5197000E5FCA9 /* main.m in Sources */,
+				D144398E19F5197000E5FCA9 /* ViewController.m in Sources */,
+				D14439B419F519E800E5FCA9 /* ARUTUtil.m in Sources */,
+				D14439AD19F5198500E5FCA9 /* MFLMainView.m in Sources */,
+				D14439C219F5227F00E5FCA9 /* MFLInputView.m in Sources */,
+				D1AB20DD19F62C02009BF4F8 /* MFLCoreDataCtrl.m in Sources */,
+				D14439B519F519E800E5FCA9 /* UIActionSheet+NSCookBook.m in Sources */,
+				D1CFCB0419F776F3007E0B11 /* MFLBaseView.m in Sources */,
+				D14439BF19F51EEE00E5FCA9 /* MFLHistoryView.m in Sources */,
+				D1AB20D719F624D3009BF4F8 /* MFLCDCars.m in Sources */,
+				D144398B19F5197000E5FCA9 /* myFuel.xcdatamodeld in Sources */,
+				D14439B619F519E800E5FCA9 /* UIAlertView+NSCookBook.m in Sources */,
+				D1CFCAFE19F74726007E0B11 /* MFLCarsView.m in Sources */,
+				D1CFCB0C19F7A9E8007E0B11 /* MFLImportView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D144399719F5197000E5FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14439A219F5197000E5FCA9 /* myFuelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D144399D19F5197000E5FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D144397E19F5197000E5FCA9 /* myFuel */;
+			targetProxy = D144399C19F5197000E5FCA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D144398F19F5197000E5FCA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D144399019F5197000E5FCA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D144399419F5197000E5FCA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D144399519F5197000E5FCA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14439A319F5197000E5FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D14439A419F5197000E5FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14439A619F5197000E5FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 雅一 三浦 (KXJRE35GAF)";
+				INFOPLIST_FILE = myFuel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b90195f1-85b6-48be-b0f1-e14d3baa3328";
+			};
+			name = Debug;
+		};
+		D14439A719F5197000E5FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = myFuel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D14439A919F5197000E5FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myFuelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFuel.app/myFuel";
+			};
+			name = Debug;
+		};
+		D14439AA19F5197000E5FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myFuelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFuel.app/myFuel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D144397A19F5197000E5FCA9 /* Build configuration list for PBXProject "myFuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14439A319F5197000E5FCA9 /* Debug */,
+				D14439A419F5197000E5FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14439A519F5197000E5FCA9 /* Build configuration list for PBXNativeTarget "myFuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14439A619F5197000E5FCA9 /* Debug */,
+				D14439A719F5197000E5FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14439A819F5197000E5FCA9 /* Build configuration list for PBXNativeTarget "myFuelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14439A919F5197000E5FCA9 /* Debug */,
+				D14439AA19F5197000E5FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D144398919F5197000E5FCA9 /* myFuel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D144398A19F5197000E5FCA9 /* myFuel.xcdatamodel */,
+			);
+			currentVersion = D144398A19F5197000E5FCA9 /* myFuel.xcdatamodel */;
+			path = myFuel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D144397719F5197000E5FCA9 /* Project object */;
+}
