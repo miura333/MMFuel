@@ -2,6 +2,9 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+myFuel/Images.xcassets/AppIcon.appiconset/icon-120.png
+myFuel/Images.xcassets/AppIcon.appiconset/icon-180.png
+
 ## Build generated
 build/
 DerivedData
