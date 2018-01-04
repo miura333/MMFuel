@@ -101,12 +101,13 @@
 
 //iOSバージョンが7以上かどうか
 + (BOOL)isVersionOver70 {
-	NSString *osVer = [[UIDevice currentDevice] systemVersion];
-	NSComparisonResult compResult = [osVer compare:@"7.0"];
-	if(compResult == NSOrderedSame || compResult == NSOrderedDescending){
-		return YES;
-	}
-	return NO;
+    return YES; //常にYesを返却
+//	NSString *osVer = [[UIDevice currentDevice] systemVersion];
+//	NSComparisonResult compResult = [osVer compare:@"7.0"];
+//	if(compResult == NSOrderedSame || compResult == NSOrderedDescending){
+//		return YES;
+//	}
+//	return NO;
 }
 
 //画面解像度を取得する

@@ -109,6 +109,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setObject:@"0" forKey:mflAddViewClosed];
+        [defaults setObject:@"0" forKey:mflHistoryViewClosed];
         [defaults addObserver:self forKeyPath:mflAddViewClosed options:0 context:nil];
         [defaults addObserver:self forKeyPath:mflHistoryViewClosed options:0 context:nil];
         
@@ -160,10 +162,13 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
     int width = 0, height = 0;
     [ARUTUtil getSubViewDimension:&width height:&height];
     
     if ([keyPath isEqualToString:mflAddViewClosed] == YES) {
+        [defaults setObject:@"0" forKey:mflAddViewClosed];
         [UIView animateWithDuration:0.3 animations:^{
             [_inputView setFrame:CGRectMake(0, height, width, height)];
             [self updateValues];
@@ -171,6 +176,7 @@
             [_inputView removeFromSuperview];
         }];
     }else if([keyPath isEqualToString:mflHistoryViewClosed] == YES) {
+        [defaults setObject:@"0" forKey:mflHistoryViewClosed];
         
         [UIView animateWithDuration:0.3 animations:^{
             [_historyView setFrame:CGRectMake(width, 0, width, height)];
